@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layouts/css/styles.css"/>
+
+
+    <title>H C Srihari</title>
+</head>
+
+<body class=" text-white  flex flex-col bg-gray-900">
+    <!-- NAVIGATION BAR -->
+
+    <div class="flex w-full  bg-neutral-800  z-5 justify-between py-4 fixed sm:w-screen  ">
+        <a class="flex py-4 ml-4" href="#home">
+            <img src="imgs\logo.png" alt="logo" class="w-8 h-8 mr-2 rounded-full">
+
+            <div class="text-lg">H C Srihari</div>
+        </a>
+
+        <img src="imgs\menu.png" class=" w-10 mr-8 bg-white h-10 md:hidden">
+
+
+        <div class="hidden md:flex  justify-between  ">
+
+            <a href="#home"
+                class=" md:flex md:items-center md:mx-4 hover:underline hover:text-violet-400 underline-offset-8 decoration-violet-400  py-4">Home</a>
+            <a href="#aboutme"
+                class="md:flex md:items-center md:mx-4 hover:underline hover:text-violet-400 underline-offset-8 decoration-violet-400  mx-4 py-4">About
+                Me</a>
+            <a href="#eduction"
+                class="md:flex md:items-center md:mx-4 hover:underline hover:text-violet-400 underline-offset-8 decoration-violet-400  mx-4 py-4 ">Education</a>
+            <a href="#skills"
+                class="md:flex md:items-center md:mx-4 hover:underline hover:text-violet-400 underline-offset-8 decoration-violet-400  mx-4 py-4">Skills</a>
+            <a href="#contactme" class=" md:mx-4 py-4"><button
+                    class="bg-violet-700 px-6 py-2 hover:bg-violet-600 mr-4 ">Contact
+                    me</button> </a>
+        </div>
+    </div>
+
+
+    <!-- HOME -->
+    <div id="home" class="container min-w-full h-screen   flex justify-between items-center  px-2 relative -z-10 ">
+        <div class=" w-full h-72 ">
+
+            <div class=" ml-  ">
+                <h1 class=" ml-24 font-bold text-6xl  inline z-5 text-center ">
+                    <p>Hey I am </p>
+                    <p class="text-green-400 italic">Srihari</p>
+                    <p>I'm a </p>
+                    <p class="  text-green-400 h-8 text-center italic" id="text"></p><br>
+                </h1>
+            </div>
+        </div>
+        <div class=" h-80 ">
+            <img class="hidden md:flex w-82 h-82 rounded-full   mr-72 -z-10 grayscale " src="imgs\profile.png">
+        </div>
+    </div>
+
+
+    <!-- ABOUT ME -->
+    <div id="aboutme" class=" mt-10 bg-gray-800  h-auto md:h-screen  pb-20
+     ">
+        <div class="flex flex-row w-full  ">
+            <div class="block">
+                <img class=" hidden md:flex md:w-96  lg:w-vw/2 h-screen" src="imgs\allaboutme.png">
+
+            </div>
+            <div class=" ml-20 lg:ml-40 my-auto">
+                <p class="font-bold italic text-6xl m-6 underline decoration-green-500 underline-offset-8  md:hidden">
+                    About me<br><br></p>
+                <p class="flex flex-wrap text-slate-300 font-light  ml-24text-3xl sm:text-xl  
+                
+                ">I wrote my first "Hello World" program
+                    <br>in 1st year intermediate, from there on <br>I fell in love with the programming world.<br><br>
+                    My hobbies are watching sci-fi films,<br> drawing , evening walk and of course<br> learning new
+                    technologies and many more...<br>
+                    <br> I like to read books and my favourite<br> categories are adventure , sci-fi <br>and
+                    autobiography .<br><br> That's all about me ... !!
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- EDUCATION SECTION -->
+    <div id="eduction" class="bg-gray-750 w-full h-auto  ">
+        <p class="font-bold italic text-6xl m-6 underline decoration-green-500 underline-offset-8 ">Education</p>
+        <div
+            class="flex bg-gray-600 rounded-xl m-6 mt-6 p-4 w-1/2 ml-32  hover:transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover: duration-300">
+            <img class="w-12 h-12 rounded-md " src="imgs\college logo.png">
+            <div class="noflex ml-4">
+                <p class="font-semibold text-2xl">KLS Gogte Institute of Technology</p>
+                <p class="text-lg font-light ">Bachelor of Engineering in Computer Science</p>
+                <p class="italic text-slate-200">2021 - 2025</p>
+                <p>CGPA: 9.00</p>
+            </div>
+        </div>
+
+        <div
+            class="flex bg-gray-600 rounded-xl m-6 p-4 w-1/2 ml-32 hover:transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover: duration-300">
+            <img class="w-12 h-12 rounded-md" src="imgs\college logo.png">
+            <div class="noflex ml-4">
+                <p class="font-semibold text-2xl">Jain PU college Belgaum</p>
+                <p class="text-lg font-light ">PUC Science</p>
+                <p class="italic">2019-2021</p>
+                <p>Grade: 99.93 %</p>
+            </div>
+        </div>
+
+        <div
+            class="flex  bg-gray-600 rounded-xl m-6 p-4 w-1/2 ml-32  hover:-z-40 hover:transitionease-in-out  delay-100 hover:-translate-y-1 hover:scale-110 hover: duration-300  ">
+
+            <img class="w-12 h-12 rounded-md" src="imgs\college logo.png">
+            <div class="noflex ml-4">
+                <p class="font-semibold text-2xl">Sangamesh School Belgaum</p>
+                <p class="text-lg font-light ">High School </p>
+                <p class="italic ">2011 - 2019</p>
+                <p>Grade: 96.48 %</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS SECTOIN -->
+    <div id="skills" class="max-w-full h-auto  bg-gray-800  ">
+        <br>
+        <p class="font-bold italic text-6xl ml-4 mb-8 underline decoration-green-500 underline-offset-8 ">Skills</p><br>
+        <div class="lg:grid grid-cols-2 gap-12 ml-10 mt-10 sm:mx-auto md:mx-20 py-10 mb-20 ">
+            <div
+                class="font-medium text-xl w-96 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover: duration-300  m-10 lg:m-0">
+                <div class="flex justify-between">
+                    <p class="flex ">C/C++</p>
+                    <p class="flex font-light">85 %</p>
+                </div>
+                <div class="bg-slate-200 w-96 h-3 rounded-full">
+                    <div class="bg-violet-400 w-9/12 h-3 rounded-full"></div>
+                </div>
+            </div>
+            <div
+                class="font-medium text-xl w-96 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover: duration-300 m-10 lg:m-0">
+                <div class="flex justify-between">
+                    <p class="flex ">Java</p>
+                    <p class="flex font-light">55 %</p>
+                </div>
+                <div class="bg-slate-200 w-96 h-3 rounded-full">
+                    <div class="bg-violet-400 w-7/12 h-3 rounded-full"></div>
+                </div>
+            </div>
+            <div
+                class="font-medium text-xl w-96 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover: duration-300 m-10 lg:m-0">
+                <div class="flex justify-between">
+                    <p class="flex ">HTML</p>
+                    <p class="flex font-light">65 %</p>
+                </div>
+                <div class="bg-slate-200 w-96 h-3 rounded-full">
+                    <div class="bg-violet-400 w-7/12 h-3 rounded-full"></div>
+                </div>
+            </div>
+            <div
+                class="font-medium text-xl w-96 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover: duration-300 m-10 lg:m-0">
+                <div class="flex justify-between">
+                    <p class="flex ">CSS</p>
+                    <p class="flex font-light">50 %</p>
+                </div>
+                <div class="bg-slate-200 w-96 h-3 rounded-full">
+                    <div class="bg-violet-400 w-1/2 h-3 rounded-full"></div>
+                </div>
+
+            </div>
+            <div
+                class="font-medium text-xl w-96 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover: duration-300 m-10 lg:m-0">
+                <div class="flex justify-between">
+                    <p class="flex ">JavaScript</p>
+                    <p class="flex font-light">45 %</p>
+                </div>
+                <div class="bg-slate-200 w-96 h-3 rounded-full">
+                    <div class="bg-violet-400 w-4/12 h-3 rounded-full"></div>
+                </div>
+            </div>
+            <div
+                class="font-medium text-xl w-96  transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover: duration-300 m-10 lg:m-0">
+                <div class="flex justify-between">
+                    <p class="flex ">Drawing</p>
+                    <p class="flex font-light">90 %</p>
+                </div>
+
+                <div class="bg-slate-200 w-96 h-3 rounded-full noflex ">
+                    <div class="bg-violet-400 w-11/12 h-3 rounded-full noflex"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT ME  -->
+    <div id="contactme" class="w-full 
+      bg-gray-900  h-screen ">
+        <p class="font-bold italic text-6xl  underline decoration-green-500 underline-offset-8  my-8">Contact me </p>
+
+        <div class=" lg:flex  bg-slate-300 ">
+
+            <div class="w-full h-auto bg-violet-100 md:w-full md:h-auto ">
+                <p class="text-center text-2xl italic font-medium my-4 mb-8 text-black underline underline-offset-8">
+                    Profiles</p>
+
+                <div class=" md:flex flex-row ">
+                    <a href="#"
+                        class="group block basis-1/2 w-3/4  md:w-40 h-48 bg-gray-400 m-2 rounded-lg hover:bg-white mx-auto md:mx-4 ">
+                        <div class=" py-4 ">
+                            <img class="w-16 h-16 mx-auto m-8  rounded-full bg-white" src="imgs\github.png">
+                            <p class="text-black text-center font-semibold text-xl">Github</p>
+
+                        </div>
+
+                    </a>
+
+                    <a href="#"
+                        class="group block basis-1/2 w-3/4  md:w-40 h-48 bg-gray-400 m-2 rounded-lg hover:bg-white mx-auto md:mx-4">
+                        <div class=" py-4 ">
+                            <img class="w-16 h-16 mx-auto m-8  rounded-full" src="imgs\linkedin.png">
+                            <p class="text-black text-center font-semibold text-xl">LinkedIn</p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="md:flex flex-row mx-auto">
+                    <a href="#"
+                        class="group block basis-1/2 w-3/4  md:w-40 h-48 bg-gray-400 m-2 rounded-lg hover:bg-white mx-auto md:mx-4">
+                        <div class=" py-4 ">
+                            <img class="w-16 h-16 mx-auto m-8  rounded-full" src="imgs\twitter.png">
+                            <p class="text-black text-center font-semibold text-xl">Twitter</p>
+
+                        </div>
+
+                    </a>
+                    <a href="#"
+                        class="group block basis-1/2 w-3/4  md:w-40 h-48 bg-gray-400 m-2 rounded-lg hover:bg-white mx-auto md:mx-4">
+                        <div class=" py-4 ">
+                            <img class="w-16 h-16 mx-auto m-8  rounded-full" src="imgs\email.png">
+                            <p class="text-black text-center font-semibold text-xl">Email</p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="w-full  justify-between md:w-full md:h-auto">
+                <p class="text-black font-medium text-2xl italic text-center mt-4 underline underline-offset-8">Any
+                    questions ? </p>
+                <form class="flex  flex-col p-6  h-auto  mx-16 ">
+                    <input
+                        class="p-2 m-4  w-full italic rounded-md text-gray-900 ring-2 ring-violet-400 shadow-md shadow-violet-500  "
+                        type="text" placeholder="Your name">
+                    <input
+                        class="p-2 m-4 w-full italic  rounded-md text-gray-900 ring-2 ring-violet-400 shadow-md shadow-violet-500 "
+                        type="email" placeholder="Your Email">
+                    <input
+                        class="p-2 m-4 w-full italic  rounded-md  text-gray-900 ring-2 ring-violet-400 shadow-md shadow-violet-500 "
+                        type="text" placeholder="Subject">
+                    <textarea
+                        class="w-full m-4 italic p-2  rounded-md text-gray-900 ring-2 ring-violet-400 shadow-md shadow-violet-500  "
+                        rows="5" cols="30" placeholder="Message"></textarea>
+                    <button
+                        class="bg-violet-600 m-2 px-5 py-1 text-white text-lg mx-auto font-medium rounded-full w-fit hover:bg-violet-500"
+                        type="reset">Submit</button>
+
+                </form>
+            </div>
+
+
+        </div>
+        <div class="py-6">
+            <p class="text-white  text-center">Copyright ©2023 All rights reserved | This wesbite is made with 🔥 💪 by
+                🙋‍♂️</p>
+
+        </div>
+    </div>
+
+    <script src="./autotyping.js"></script>
+</body>
+
+</html>
